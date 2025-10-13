@@ -1,0 +1,12 @@
+Source: ros-humble-launch-frontend-py
+Section: misc
+Priority: optional
+Maintainer: Emerson Knapp <me@emersonknapp.com>
+Build-Depends: debhelper (>= 9.0.0), ros-humble-ament-cmake, ros-humble-ament-cmake-mypy <!nocheck>, ros-humble-ament-cmake-pytest <!nocheck>, ros-humble-ament-cmake-python, ros-humble-ament-copyright <!nocheck>, ros-humble-ament-lint-auto <!nocheck>, ros-humble-ament-lint-common <!nocheck>, ros-humble-launch, ros-humble-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-humble-launch-frontend-py
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-humble-launch, ros-humble-ros-workspace
+Description: Python frontend for writing ROS 2 launch files
