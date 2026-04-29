@@ -1,0 +1,12 @@
+Source: ros-lyrical-launch-frontend-py
+Section: misc
+Priority: optional
+Maintainer: Emerson Knapp <me@emersonknapp.com>
+Build-Depends: debhelper (>= 9.0.0), ros-lyrical-ament-cmake, ros-lyrical-ament-cmake-mypy <!nocheck>, ros-lyrical-ament-cmake-pytest <!nocheck>, ros-lyrical-ament-cmake-python, ros-lyrical-ament-copyright <!nocheck>, ros-lyrical-ament-lint-auto <!nocheck>, ros-lyrical-ament-lint-common <!nocheck>, ros-lyrical-launch, ros-lyrical-ros-workspace
+Homepage: https://index.ros.org/p/launch_frontend_py/#lyrical
+Standards-Version: 3.9.2
+
+Package: ros-lyrical-launch-frontend-py
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-lyrical-launch, ros-lyrical-ros-workspace
+Description: Python frontend for writing ROS 2 launch files
